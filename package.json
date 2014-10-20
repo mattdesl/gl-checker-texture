@@ -1,0 +1,43 @@
+{
+  "name": "gl-checker-texture",
+  "version": "1.0.0",
+  "description": "generates a checkered texture",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "gl-texture2d": "^2.0.7",
+    "ndarray": "^1.0.15"
+  },
+  "devDependencies": {
+    "tape": "^3.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "gl",
+    "webgl",
+    "stackgl",
+    "check",
+    "checker",
+    "checkered",
+    "transparency",
+    "background",
+    "test",
+    "texture",
+    "image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/gl-checker-texture.git"
+  },
+  "homepage": "https://github.com/mattdesl/gl-checker-texture",
+  "bugs": {
+    "url": "https://github.com/mattdesl/gl-checker-texture/issues"
+  }
+}
