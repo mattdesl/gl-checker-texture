@@ -12,7 +12,7 @@ module.exports = function(gl, opt) {
 
     opt.colors = opt.colors || defs
 
-    data = [
+    var data = [
         opt.colors[0], opt.colors[1],
         opt.colors[1], opt.colors[0]
     ].reduce(function(a, b) {
